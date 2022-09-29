@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    background: url(/arkaplan.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 430px;
+    width: 400px;
+    height: 500px;
+    box-shadow: darkblue;
+    background-color: #d5dce8;
+    border-radius: 30px;
+    opacity: 0.1;
+    transition: 0.8s;
+   
+}
+
+.container:hover{
+    opacity:0.8;
+    border: 5px solid #FFFF9E;
+    background-color: #2C5672;
+    color: white;
+}
+.container:hover nav a i{
+    transform: rotate(360deg);
+    font-size: 60px;
+    color: #FFFF9E;
+}
+nav a i{
+    margin-bottom: 80px;
+    font-size: 50px;
+    color: black;
+    transition: all ease 0.8s;
+}
+
+.h{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.input h5{
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+.text{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+ 
+.pass{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+button{
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 7px;
+    background-color: rgb(243, 235, 235);
+    border: none;
+    transition: all ease 0.8s;
+    
+}
+.container:hover button{
+    transform: rotate(360deg);
+    font-size: 20px;
+    color:white;
+    background-color: black;
+}
